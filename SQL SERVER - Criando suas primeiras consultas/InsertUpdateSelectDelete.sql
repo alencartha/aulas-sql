@@ -13,6 +13,11 @@ where TipoPessoa = 'J'
 select *
 from clientes
 where codigo = 1
-AND nome = 'Flavia'
+AND TipoPessoa = 'J'
+
+select *
+from clientes
+where codigo = 1
+OR TipoPessoa = 'F'
 
 
